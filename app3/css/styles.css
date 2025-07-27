@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.user-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.user-card h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    font-size: 24px;
+    color: #363949;
+    margin: 20px 0;
+}
+
+.input-group {
+    margin: 15px 0;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    margin: 20px 0;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.update-button {
+    background-color: #363949;
+    color: white;
+}
+
+.reset-button {
+    background-color: #E2E3E9;
+    color: #21222C;
+}
