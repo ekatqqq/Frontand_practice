@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заявка на регистрацию</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="registration-form">
+        <div class="form-header">
+            <h2>Заявка на регистрацию для мероприятия</h2>
+            <img class="close-button" src="img/shape.png" alt="">
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="event-type">Тип мероприятия *</label>
+                <input type="text" id="event-type" placeholder="Выберите вид мероприятия">
+            </div>
+            <div class="form-group">
+                <label for="full-name">ФИО *</label>
+                <input type="text" id="full-name" placeholder="Введите ФИО">
+            </div>
+            <div class="form-group">
+                <label for="email">Имейл *</label>
+                <input type="email" id="email" placeholder="Введите имейл">
+            </div>
+            <div class="form-group">
+                <label for="phone">Номер телефона *</label>
+                <input type="tel" id="phone" placeholder="+7 777 777 77">
+            </div>
+            
+            <div class="friends-container">
+                <div class="add-friend-section">
+                    <button class="add-friend-button" type="button">
+                        <span class="plus-icon">+</span>
+                        Добавить друга
+                    </button>
+                </div>
+                <div class="friends-list"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="preferred-contact">Предпочитаемый вид связи *</label>
+                <select id="preferred-contact">
+                    <option value="">Выберите предпочитаемый вид связи</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Телефон</option>
+                    <option value="whatsapp">WhatsApp</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button class="back-button" type="button">Назад</button>
+                <button class="next-button" type="button">Дальше</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

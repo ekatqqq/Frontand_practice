@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-form{
+    width: 640px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
+    padding: 18px 0 32px 32px;
+    position: relative;
+}
+
+.registration-form form{
+    padding-right: 32px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.form-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font: TT Positive;
+    color: #333;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 10.5px;
+    cursor: pointer;
+    color: #21222C;
+    margin-right: 22.76px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 6px 0px 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #8A8FA8;
+}
+
+.add-friend-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-friend-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #21222C;
+}
+
+.plus-icon {
+    padding: 8px 6px 8px 12px;
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 24px;
+}
+
+.back-button, .next-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.back-button {
+    background-color: #E2E3E9;
+    color: #21222C;
+}
+
+.next-button {
+    background-color: #363949;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
